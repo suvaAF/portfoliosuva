@@ -1,4 +1,4 @@
-class Assets{
+class Assets {
   static const moon = 'assets/moon.png';
   static const avatar = 'assets/avatar.jpg';
   static const facebook = 'assets/facebook.png';
@@ -7,6 +7,8 @@ class Assets{
   static const linkedin = 'assets/linkedin.png';
   static const medium = 'assets/medium.png';
   static const medium_light = 'assets/medium_light.png';
-  static const twitter= 'assets/twitter.png';
+  static const twitter = 'assets/twitter.png';
 
   static var gsb;
+
+}
