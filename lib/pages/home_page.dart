@@ -27,6 +27,12 @@ class _HomePageState extends State<HomePage>{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: <Widget>[
+          IconButton(
+            icon: ThemeSwitcher.of(context).isDarkModeOn?Icon(Icons.wb_sunny):Image.asset(Assets.moon,height: 20,width: 20,),
+            onPressed: ()=> ThemeSwitcher.of(context).switchDarkMode(),
+          )
+        ],
       ),
       body: Center(
         child: tabWidgets.elementAt(_selectedIndex),
@@ -35,7 +41,7 @@ class _HomePageState extends State<HomePage>{
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.account_circle),
-            title: Text('About'),
+            title: Text('A Propos'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.chrome_reader_mode),
@@ -43,7 +49,7 @@ class _HomePageState extends State<HomePage>{
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.mobile_screen_share),
-            title: Text('Projects'),
+            title: Text('Projets'),
           )
         ],
         currentIndex: _selectedIndex,

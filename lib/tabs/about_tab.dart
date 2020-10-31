@@ -1,7 +1,9 @@
-import 'package:adityagurjar/config/assets.dart';
-import 'package:adityagurjar/config/constants.dart';
+import 'package:portfoliosuva/config/assets.dart';
+import 'package:portfoliosuva/config/constants.dart';
 import 'package:flutter/material.dart';
+
 import 'dart:html' as html;
+
 class AboutTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

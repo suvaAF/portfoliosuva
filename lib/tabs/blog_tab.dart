@@ -1,10 +1,10 @@
 import 'dart:html' as html;
 
-import 'package:adityagurjar/config/constants.dart';
-import 'package:adityagurjar/models/blog_model.dart';
-import 'package:adityagurjar/providers/api_provider.dart';
-import 'package:adityagurjar/widgets/blog_widget.dart';
-import 'package:adityagurjar/widgets/responsive_widget.dart';
+import 'package:portfoliosuva/config/constants.dart';
+import 'package:portfoliosuva/models/blog_model.dart';
+import 'package:portfoliosuva/providers/api_provider.dart';
+import 'package:portfoliosuva/widgets/blog_widget.dart';
+import 'package:portfoliosuva/widgets/responsive_widget.dart';
 import 'package:flutter/material.dart';
 
 class BlogTab extends StatefulWidget {

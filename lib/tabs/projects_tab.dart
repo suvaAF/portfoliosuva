@@ -1,6 +1,6 @@
-import 'package:adityagurjar/config/projects.dart';
-import 'package:adityagurjar/widgets/project_widget.dart';
-import 'package:adityagurjar/widgets/responsive_widget.dart';
+import 'package:portfoliosuva/config/projects.dart';
+import 'package:portfoliosuva/widgets/project_widget.dart';
+import 'package:portfoliosuva/widgets/responsive_widget.dart';
 import 'package:flutter/material.dart';
 
 class ProjectsTab extends StatelessWidget {

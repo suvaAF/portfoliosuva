@@ -1,6 +1,7 @@
-import 'package:adityagurjar/models/project_model.dart';
+import 'package:portfoliosuva/models/project_model.dart';
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
+
 class ProjectWidget extends StatelessWidget {
   final Project _project;
   final double _bottomPadding;
