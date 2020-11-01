@@ -1,6 +1,6 @@
 # portfoliosuva
 
-Mon portfolio simple déelopé sous Flutter Web
+Mon portfolio simple dévelopé sous Flutter Web
 
 ## Getting Started
 
