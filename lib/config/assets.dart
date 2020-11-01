@@ -8,7 +8,7 @@ class Assets {
   static const medium = 'assets/medium.png';
   static const medium_light = 'assets/medium_light.png';
   static const twitter = 'assets/twitter.png';
-  static const gsb = 'assets/works/gsb.jpg';
+  static const gsb1 = 'assets/works/gsb1.png';
 
 
 }
