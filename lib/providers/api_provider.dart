@@ -5,9 +5,9 @@ import 'package:portfoliosuva/models/blog_model.dart';
 
 
 class ApiProvider{
-  get http => null;
-
+ 
   Future<List<Blog>> getBlogs() async {
+    var http;
     final response = await http.get(Constants.BLOG_API);
     if(response.statusCode==200){
       List blogs = json.decode(utf8.decode(response.bodyBytes))['response'];
